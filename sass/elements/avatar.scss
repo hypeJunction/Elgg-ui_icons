@@ -1,0 +1,31 @@
+@import "compass/css3";
+.elgg-avatar {
+	position: relative;
+	& > a {
+		display: inline-block;
+	}
+	&.elgg-avatar-circle {
+		& > .elgg-image, & > a, & > a > .elgg-image {
+			@include border-radius(1000px);
+			overflow: hidden;
+		}
+	}
+	.elgg-avatar-image {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.elgg-icon-hover-menu {
+		display: none;
+		padding: 5px;
+		font-size: 12px;
+		background: #666;
+		color: white;
+		border: 1px solid #fff;
+		border-radius: 20px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		cursor: pointer;
+	}
+}

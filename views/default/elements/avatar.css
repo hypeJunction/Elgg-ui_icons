@@ -1,0 +1,5 @@
+.elgg-avatar { position: relative; }
+.elgg-avatar > a { display: inline-block; }
+.elgg-avatar.elgg-avatar-circle > .elgg-image, .elgg-avatar.elgg-avatar-circle > a, .elgg-avatar.elgg-avatar-circle > a > .elgg-image { -moz-border-radius: 1000px; -webkit-border-radius: 1000px; border-radius: 1000px; overflow: hidden; }
+.elgg-avatar .elgg-avatar-image { width: 100%; height: auto; display: block; }
+.elgg-avatar .elgg-icon-hover-menu { display: none; padding: 5px; font-size: 12px; background: #666; color: white; border: 1px solid #fff; border-radius: 20px; position: absolute; bottom: 0; right: 0; cursor: pointer; }
