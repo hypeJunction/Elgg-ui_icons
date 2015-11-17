@@ -1,7 +1,7 @@
 {
 	"name": "hypejunction/ui_icons",
 	"type": "elgg-plugin",
-	"description": "AJAX Tabs component for Elgg",
+	"description": "Standardized icon markup",
 	"homepage": "http://hypejunction.com",
 	"keywords": [
 		"elgg", "plugin", "ui", "icons"
