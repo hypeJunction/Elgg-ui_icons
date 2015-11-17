@@ -5,4 +5,4 @@ Icons for Elgg
 ## Features
 
 * Standardized icons display and markup
-* Adds `elgg_get_icon_sizes()` to the API
+* Adds `ui_icons_get_sizes()` to the API
