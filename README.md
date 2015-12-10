@@ -10,6 +10,8 @@ Icons for Elgg
 * Allows you to choose between `square`, `rounded`, `circle` corners
 * Replaces default user, group and question mark icons with a scalable SVG image
 
+![Icons](https://raw.github.com/hypeJunction/Elgg-ui_icons/master/screenshots/circle.png "Icons")
+
 ## Usage
 
 ### Display an icon with defualt corner setting
