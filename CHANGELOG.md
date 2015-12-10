@@ -1,3 +1,13 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/hypeJunction/Elgg-ui_icons/compare/1.0.0...v1.0.1) (2015-12-10)
+
+
+### Bug Fixes
+
+* **grunt:** fix repository name ([2855a4e](https://github.com/hypeJunction/Elgg-ui_icons/commit/2855a4e))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2015-12-10)
 
