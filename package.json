@@ -4,9 +4,9 @@
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hypeJunction/ui_icons.git",
+    "url": "git@github.com:hypeJunction/Elgg-ui_icons.git",
     "owner": "hypeJunction",
-    "repo": "ui_icons"
+    "repo": "Elgg-ui_icons"
   },
   "devDependencies": {
     "curlrequest": "^0.3.10",
