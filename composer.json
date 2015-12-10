@@ -4,7 +4,7 @@
 	"description": "Standardized icon markup",
 	"homepage": "http://hypejunction.com",
 	"keywords": [
-		"elgg", "plugin", "ui", "icons"
+		"elgg", "plugin", "ui", "icons", "round icons"
 	],
 	"license": "GPL-2.0",
 	"authors": [
@@ -13,8 +13,8 @@
 			"email": "info@hypejunction.com"
 		}
 	],
-	"require-dev": {
-		"composer/installers": "1.*"
+	"require": {
+		"php": ">=5.5"
 	}
 }
 

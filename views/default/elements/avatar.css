@@ -1,5 +1,11 @@
 .elgg-avatar { position: relative; }
 .elgg-avatar > a { display: inline-block; }
 .elgg-avatar.elgg-avatar-circle > .elgg-image, .elgg-avatar.elgg-avatar-circle > a, .elgg-avatar.elgg-avatar-circle > a > .elgg-image { -moz-border-radius: 1000px; -webkit-border-radius: 1000px; border-radius: 1000px; overflow: hidden; }
+.elgg-avatar.elgg-avatar-rounded > .elgg-image, .elgg-avatar.elgg-avatar-rounded > a, .elgg-avatar.elgg-avatar-rounded > a > .elgg-image { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; overflow: hidden; }
+.elgg-avatar.elgg-avatar-square > .elgg-image, .elgg-avatar.elgg-avatar-square > a, .elgg-avatar.elgg-avatar-square > a > .elgg-image { -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; overflow: hidden; }
 .elgg-avatar .elgg-avatar-image { width: 100%; height: auto; display: block; }
-.elgg-avatar .elgg-icon-hover-menu { display: none; padding: 5px; font-size: 12px; background: #666; color: white; border: 1px solid #fff; border-radius: 20px; position: absolute; bottom: 0; right: 0; cursor: pointer; }
+.elgg-avatar .elgg-icon-hover-menu, .elgg-avatar:hover .elgg-icon-hover-menu { display: none; padding: 0; font-size: 12px; background: #666; background: rgba(102, 102, 102, 0.6); color: white; border: 1px solid #fff; border-radius: 20px; position: absolute; bottom: 0; right: 0; cursor: pointer; width: 16px !important; height: 16px !important; max-width: 100%; max-height: 100%; }
+.elgg-avatar .elgg-icon-hover-menu:before, .elgg-avatar:hover .elgg-icon-hover-menu:before { position: absolute; margin: -6px auto 0; left: 0; right: 0; width: 100%; text-align: center; top: 50%; }
+.elgg-menu-topbar .elgg-avatar.elgg-avatar-topbar { max-width: none; max-height: none; }
+
+.elgg-gallery:not(.elgg-gallery-users) > li > .elgg-avatar:only-child { margin: 3px; }

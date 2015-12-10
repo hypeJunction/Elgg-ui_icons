@@ -1,6 +1,6 @@
 <?php
 
-$sizes = ui_icons_get_sizes(new ElggObject, 'icon');
+$sizes = ui_icons_get_sizes();
 foreach ($sizes as $name => $opts) {
 	echo ".elgg-avatar-$name {";
 		if ($opts['w']) {

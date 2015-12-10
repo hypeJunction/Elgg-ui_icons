@@ -11,11 +11,11 @@
  * @uses $vars['href']       Optional override for link
  * @uses $vars['img_class']  Optional CSS class added to img
  * @uses $vars['link_class'] Optional CSS class for the link
- * @uses $vars['circle']    Make icons circle
+ * @uses $vars['corners']    Corner type
  */
 $entity = elgg_extract('entity', $vars);
 
-$size = elgg_extract('size', $vars, 'medium');
+$size = elgg_extract('size', $vars, 'small');
 $icon_type = elgg_extract('icon_type', $vars, 'icon');
 $width = elgg_extract('width', $vars);
 $height = elgg_extract('height', $vars);
@@ -74,9 +74,14 @@ if ($subtype) {
 if ($icon_type !== 'icon') {
 	$wrapper_class[] = "elgg-avatar-{$icon_type}";
 }
-$circle = elgg_extract('circle', $vars, $icon_type == 'icon' && elgg_get_plugin_setting('circle', 'ui_icons', true));
-if ($circle) {
-	$wrapper_class[] = 'elgg-avatar-circle';
+
+$corners = elgg_extract('corners', $vars);
+if (!isset($corners) && in_array($size, array('topbar', 'tiny', 'small', 'medium'))) {
+	$corners = elgg_get_plugin_setting('corners', 'ui_icons');
+}
+
+if ($corners) {
+	$wrapper_class[] = "elgg-avatar-$corners";
 }
 
 $hover = elgg_extract('hover', $vars);
