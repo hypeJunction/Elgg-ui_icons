@@ -68,7 +68,7 @@ function ui_icons_default_icon($hook, $type, $return, $params) {
 		$core_path = elgg_get_simplecache_url('icons/user/');
 	} else if ($entity instanceof ElggGroup) {
 		$default = elgg_get_simplecache_url('icon/group/default.svg');
-		$core_path = elgg_get_simplecache_url('icons/group/');
+		$core_path = elgg_get_simplecache_url('groups/default');
 	} else {
 		$default = elgg_get_simplecache_url('icon/default.svg');
 		$core_path = elgg_get_simplecache_url('icons/default/');
