@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/hypeJunction/Elgg-ui_icons/compare/1.0.1...v1.0.2) (2015-12-12)
+
+
+### Bug Fixes
+
+* **icons:** fix default group icon prefix ([d2df998](https://github.com/hypeJunction/Elgg-ui_icons/commit/d2df998))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/hypeJunction/Elgg-ui_icons/compare/1.0.0...v1.0.1) (2015-12-10)
 
