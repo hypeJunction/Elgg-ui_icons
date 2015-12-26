@@ -11,6 +11,7 @@ Icons for Elgg
 * Replaces default user, group and question mark icons with a scalable SVG image
 
 ![Icons](https://raw.github.com/hypeJunction/Elgg-ui_icons/master/screenshots/circle.png "Icons")
+![Sandbox](https://raw.github.com/hypeJunction/Elgg-ui_icons/master/screenshots/sandbox.png "Sandbox")
 
 ## Usage
 
