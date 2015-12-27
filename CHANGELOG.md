@@ -1,3 +1,13 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/hypeJunction/Elgg-ui_icons/compare/1.0.2...v1.0.3) (2015-12-27)
+
+
+### Features
+
+* **readme:** add theme sandbox screenshot ([bbf04bd](https://github.com/hypeJunction/Elgg-ui_icons/commit/bbf04bd))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/hypeJunction/Elgg-ui_icons/compare/1.0.1...v1.0.2) (2015-12-12)
 
